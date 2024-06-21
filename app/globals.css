@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+body {
+  background-color: white;
+}
+.textColor {
+  color: #3a96ff;
+}
+.buttonColor {
+  color: white;
+  background-color: #3a96ff;
+}
+.font {
+  font-family: "Inter", sans-serif;
+}

@@ -24,7 +24,7 @@ const Footer = () => {
           About Us
         </Link>
         <div className="text-sm text-gray-700 max-sm:text-xs">
-          <p>© 2024 Algabay AI Private Limited.</p>
+          <p>© 2024 StockIt, A project of Algabay AI Private Limited.</p>
         </div>
       </div>
     </>

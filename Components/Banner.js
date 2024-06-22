@@ -76,32 +76,6 @@ const Banner = () => {
         </div>
       </div>
       <div className="max-sm:p-2">
-        <div className="h-[80vh] text-black w-full bg-white flex flex-col md:flex-row items-center px-4 md:px-20 gap-6 md:gap-10 max-sm:-mt-40 max-sm:my-5 max-sm:border max-sm:border-gray-200  max-sm:p-4">
-          <motion.div
-            initial={{ opacity: 0, y: -80 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -50 }}
-            transition={{ duration: 1 }}
-            className="text-center md:text-left md:w-1/2"
-          >
-            <h4 className="text-2xl md:text-3xl font-serif">
-              Introducing our Finance GPT
-            </h4>
-            <br />
-            <h4 className="text-sm md:text-xl font-thin">
-              “A powerhouse for financial insights. Precision analysis,
-              strategic forecasting, and efficient automation redefine your
-              financial operations. Elevate decision making with new AI
-              technology.”
-            </h4>
-          </motion.div>
-          <img
-            src="/chatimg.png"
-            className="h-[50vh] w-[50vw] max-sm:w-full rounded-xl  shadow-lg"
-          />
-        </div>
-
-        {/* Section 3: Experience AI optimized Portfolios */}
         <div className="h-[80vh] text-black w-full bg-white flex flex-col md:flex-row items-center px-4 md:px-14 gap-6 md:gap-10 max-sm:my-5 max-sm:border max-sm:border-gray-200  max-sm:p-4">
           <img
             src="/portfolio.png"
